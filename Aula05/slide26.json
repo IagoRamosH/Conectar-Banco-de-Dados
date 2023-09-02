@@ -1,0 +1,18 @@
+{
+  "data": "2023-09-01",
+  "baseCurrency": "BRL",
+  "currencies": {
+    "USD": {
+      "name": "Dólar Americano",
+      "exchangeRate": 5.40
+    },
+    "EUR": {
+      "name": "Euro",
+      "exchangeRate": 6.20
+    },
+    "GBP": {
+      "name": "Libra Esterlina",
+      "exchangeRate": 7.50
+    }
+  }
+}

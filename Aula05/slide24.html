@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dados sobre Esportes</title>
+</head>
+<body>
+    <script>
+        // Dados em formato JSON sobre esportes e modalidades
+        var dadosEsportes = [
+            {
+                "esporte": "Futebol",
+                "paisOrigem": "Inglaterra",
+                "maiorNumeroPraticantes": "Brasil"
+            },
+            {
+                "esporte": "Tênis",
+                "paisOrigem": "Reino Unido",
+                "maiorNumeroPraticantes": "Estados Unidos"
+            },
+            {
+                "esporte": "Basquetebol",
+                "paisOrigem": "Estados Unidos",
+                "maiorNumeroPraticantes": "China"
+            },
+            {
+                "esporte": "Natação",
+                "paisOrigem": "Grécia",
+                "maiorNumeroPraticantes": "Estados Unidos"
+            },
+            {
+                "esporte": "Atletismo",
+                "paisOrigem": "Grécia",
+                "maiorNumeroPraticantes": "Estados Unidos"
+            }
+        ];
+
+        // Imprimir os dados no console
+        for (var i = 0; i < dadosEsportes.length; i++) {
+            console.log("Esporte: " + dadosEsportes[i].esporte);
+            console.log("País de Origem: " + dadosEsportes[i].paisOrigem);
+            console.log("País com Maior Número de Praticantes: " + dadosEsportes[i].maiorNumeroPraticantes);
+            console.log("------------------------------------");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('passageiros.xml')
+root = tree.getroot()
+
+for passageiro in root.findall('passageiro'):
+  nome = passageiro.find('nome').text
+  print("Nome do passageiro:", nome)
+  idade = passageiro.find('idade').text
+  print("Idade do passageiro:", idade, "anos")
+  numero_do_ticket = passageiro.find('numero_do_ticket').text
+  print("O número do ticket é:", numero_do_ticket)
+  origem = passageiro.find('origem').text
+  print("A cidade de origem é:", origem)
+  destino = passageiro.find('destino').text
+  print("A cidade de destino é:", destino)
+  print()

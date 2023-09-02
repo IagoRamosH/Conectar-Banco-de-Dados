@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passageiros>
+  
+  <passageiro> 
+    <nome> João Paulo </nome>
+    <idade> 27 </idade>
+    <numero_do_ticket> 123456 </numero_do_ticket>
+    <origem> Campina Grande </origem>
+    <destino> Salvador </destino>
+  </passageiro>
+  
+  <passageiro> 
+    <nome> Marcksuel </nome>
+    <idade> 30 </idade>
+    <numero_do_ticket> 654321 </numero_do_ticket>
+    <origem> Natal </origem>
+    <destino> João Pessoa </destino>
+  </passageiro>
+  
+   <passageiro> 
+    <nome> David Micael </nome>
+    <idade> 28 </idade>
+    <numero_do_ticket> 142536 </numero_do_ticket>
+    <origem> Recife </origem>
+    <destino> Vitória </destino>
+  </passageiro>
+
+    <passageiro> 
+    <nome> Iago Ramos </nome>
+    <idade> 20 </idade>
+    <numero_do_ticket> 635241 </numero_do_ticket>
+    <origem> Gurjão </origem>
+    <destino> Campina Grande </destino>
+  </passageiro>
+  
+  <passageiro> 
+    <nome> Lucas Bringel </nome>
+    <idade> 26 </idade>
+    <numero_do_ticket> 524163 </numero_do_ticket>
+    <origem> João Pessoa </origem>
+    <destino> Rio de Janeiro </destino>
+  </passageiro>
+  
+  <passageiro> 
+    <nome> Davi Santos </nome>
+    <idade> 20 </idade>
+    <numero_do_ticket> 504060 </numero_do_ticket>
+    <origem> Belém </origem>
+    <destino> Manaus </destino>
+  </passageiro>
+  
+</passageiros>
+
+
